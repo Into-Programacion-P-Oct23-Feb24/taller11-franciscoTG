@@ -39,6 +39,7 @@ public class Ejemplo2 {
                                           // datos[3] == 30 // 40 == 30 // falso
                                           // datos[4] == 30 // 50 == 30 // falso
                                           // datos[5] == 30 // 100 == 30 // falso
+                                          
                 valor = true;
             }
         }

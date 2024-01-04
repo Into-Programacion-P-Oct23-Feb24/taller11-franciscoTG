@@ -16,11 +16,20 @@ public class Problema1 {
      */
     public static void main(String[] args) {
         int[][] informacion = {{1, 2, 3}, {10, 20, 30}, {100, 200, 300}};
-        imprimirDatos(informacion);
+        int sum = imprimirDatos(informacion);
+        System.out.printf("La suma es %d\n", sum);      
     }
-
-    public static void imprimirDatos(int[][] datos) {
-
+    public static int imprimirDatos(int[][] datos) {
+        String cadenafinal = "";
+        for (int i = 0; i < datos.length; i++) {
+            for (int j = 0; j < datos.length; j++) {
+                if (datos[i][j] % 2 == 0) {
+                }
+                cadenafinal = String.format(" los valor pares de un arreglo son:%s ",
+                        cadenafinal);
+            }
+            return imprimirDatos;
+        }
     }
-
 }
+
